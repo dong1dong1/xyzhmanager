@@ -475,7 +475,6 @@ gulp.task('run', () => {
 
   // 监听文件变化，执行相应任务
 
-
   gulp.watch('./src/**/*.scss',['sass']);
   gulp.watch('./src/**/*.ejs',['include']);
 
