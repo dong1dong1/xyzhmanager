@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>信永中和会计事务所</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/layout.css">
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<!--<p>Hello world! This is HTML5 Boilerplate.</p>-->
+<div class="xz-admin">
+<div class="xz-header">
+  <div class="xz-header-in">
+    <div class="xz-header-logo"><img src="../img/header-logo.png" height="50"></div>
+    <div class="xz-header-user">
+      <div class="xz-header-search">
+        <input type="text" placeholder="课程搜索">
+        <a class="xz-header-search-btn"></a>
+      </div>
+      <div class="xz-header-name">员工 xxx 你好 您的级别：###</div>
+      <a href="#"><div class="xz-header-logout">登出</div></a>
+    </div>
+  </div>
+</div>
+<div class="xz-body">
+  <div class="xz-body-left">
+    <div class="xz-left-menu">
+      <a href="#"><div class="xz-left-menuitem  checked ">培训管理 </div></a>
+      <a href="#"><div class="xz-left-menuitem ">签到管理</div></a>
+      <a href="#"><div class="xz-left-menuitem ">员工管理</div></a>
+    </div>
+  </div>
+  <div class="xz-body-right">
+
+    <div class="xz-body-title">培训编辑</div>
+    <div class="xz-body-edit train-edit">
+      <div class="edit-table">
+        <div class="edit-table-left">
+          <table border="0" cellpadding="0" cellspacing="0">
+            <colgroup>
+              <col width="80" style="">
+              <col width="440">
+            </colgroup>
+            <tr>
+              <td>培训类型</td>
+              <td>合伙人-业务培训（审计）</td>
+            </tr>
+            <tr>
+              <td>培训名称</td>
+              <td><input type="text" id="title"></td>
+            </tr>
+            <tr>
+              <td>主讲人</td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>培训日期</td>
+              <td>
+                <div class="train-date">
+                  <div class="train-date-input"><input type="date" value="2018-10-01" max="2020-01-01" min="2017-01-01"></div>
+                  <div>至</div>
+                  <div class="train-date-input"><input type="date" value="2019-05-01" max="2020-01-01" min="2017-01-01"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>培训类型</td>
+              <td><input type="radio" name="traintype"> 线上 &nbsp;&nbsp;<input type="radio" name="traintype"> 线下</td>
+            </tr>
+            <tr>
+              <td>线下地址</td>
+              <td><textarea></textarea></td>
+            </tr>
+            <tr>
+              <td>培训附件</td>
+              <td><input type="file" id="file1" onchange="file1span.innerText=this.value"> <input type="button" value="选择" onclick="file1.click();"> <span id="file1span"></span> <input type="button" value="上传" id="file1upload"></td>
+            </tr>
+            <tr>
+              <td>封面图片</td>
+              <td><input type="file" id="file2" onchange="file2span.innerText=this.value"> <input type="button" value="选择" onclick="file2.click();"> <span id="file2span"></span> <input type="button" value="上传" id="file2upload"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="edit-table-right">
+          <table border="0" cellpadding="0" cellspacing="0">
+            <colgroup>
+              <col width="80">
+              <col width="440">
+            </colgroup>
+            <tr>
+              <td>直播地址</td>
+              <td><textarea></textarea></td>
+            </tr>
+            <tr>
+              <td>点播地址</td>
+              <td><textarea></textarea></td>
+            </tr>
+            <tr>
+              <td>培训内容</td>
+              <td><textarea></textarea></td>
+            </tr>
+          </table>
+
+        </div>
+        <div class="edit-table-bottom">
+          <input type="button" value="显示/隐藏">
+          <input type="button" value="保存">
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="xz-footer">
+  <div class="xz-footer-in">
+    <div class="footer-back-btn"><a href="#">返回前端</a></div>
+  </div>
+</div>
+</div>
+<script src="../js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
+

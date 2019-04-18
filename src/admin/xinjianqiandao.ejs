@@ -1,0 +1,45 @@
+@@include('header.html', {"title": "sign"})
+    <div class="xz-body-title">新建签到</div>
+    <div class="xz-body-edit train-create">
+      <div class="edit-table">
+        <div class="edit-table-left">
+          <table border="0" cellpadding="0" cellspacing="0">
+            <colgroup>
+              <col width="80" style="">
+              <col width="440">
+            </colgroup>
+            <tr>
+              <td>培训名称</td>
+              <td><input type="text" id="title"></td>
+            </tr>
+            <tr>
+              <td>主讲人</td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>签到日期</td>
+              <td>
+                <div class="train-date">
+                  <div class="train-date-input"><input type="date" value="2018-10-01" max="2020-01-01" min="2017-01-01"></div>
+                  <div>至</div>
+                  <div class="train-date-input"><input type="date" value="2019-05-01" max="2020-01-01" min="2017-01-01"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>培训介绍</td>
+              <td><textarea></textarea></td>
+            </tr>
+
+          </table>
+        </div>
+
+        <div class="edit-table-bottom">
+          <input type="button" value="发布">
+          <input type="button" value="保存">
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+@@include('footer.html', {"title": "home"})
