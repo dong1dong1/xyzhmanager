@@ -13,6 +13,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/layout.css">
 </head>
@@ -48,48 +49,89 @@
   </div>
   <div class="xz-body-right">
 
-    <div class="xz-body-title">新建签到</div>
-    <div class="xz-body-edit train-create">
-      <div class="edit-table">
-        <div class="edit-table-left">
-          <table border="0" cellpadding="0" cellspacing="0">
-            <colgroup>
-              <col width="80" style="">
-              <col width="440">
-            </colgroup>
-            <tr>
-              <td>培训名称</td>
-              <td><input type="text" id="title"></td>
-            </tr>
-            <tr>
-              <td>主讲人</td>
-              <td><input type="text"></td>
-            </tr>
-            <tr>
-              <td>签到日期</td>
-              <td>
-                <div class="train-date">
-                  <div class="train-date-input"><input type="date" value="2018-10-01" max="2020-01-01" min="2017-01-01"></div>
-                  <div>至</div>
-                  <div class="train-date-input"><input type="date" value="2019-05-01" max="2020-01-01" min="2017-01-01"></div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>培训介绍</td>
-              <td><textarea></textarea></td>
-            </tr>
+<div class="xz-body-title">新建签到</div>
+<div class="xz-body-edit train-create">
+  <div class="edit-table">
+    <div class="edit-table-left">
+      <table border="0" cellpadding="0" cellspacing="0">
+        <colgroup>
+          <col width="80" style="">
+          <col width="440">
+        </colgroup>
 
-          </table>
-        </div>
+        <tr>
+          <td>培训名称</td>
+          <td><input type="text" id="title"></td>
+        </tr>
+        <tr>
+          <td>主讲人</td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td>签到日期</td>
+          <td>
+            <div class="train-date">
+              <div class="train-date-input"><input type="date" value="2018-10-01" max="2020-01-01" min="2017-01-01">
+              </div>
+              <div>至</div>
+              <div class="train-date-input"><input type="date" value="2019-05-01" max="2020-01-01" min="2017-01-01">
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>培训介绍</td>
+          <td><textarea></textarea></td>
+        </tr>
 
-        <div class="edit-table-bottom">
-          <input type="button" value="发布">
-          <input type="button" value="保存">
-        </div>
-        <div class="clearfix"></div>
-      </div>
+      </table>
     </div>
+
+    <div class="edit-table-right">
+      <table border="0" cellpadding="0" cellspacing="0">
+        <colgroup>
+          <col width="80">
+          <col width="440">
+        </colgroup>
+        <tr>
+          <td>签到课程</td>
+          <td>
+            <div class="lesson-keyvalue">
+              <input id="keyword" type="text"  autocomplete="off">
+              <div></div>
+              <!-- <i class="fa fa-chevron-down fa-1g" aria-hidden="true"></i> -->
+            </div>
+            <div class="lesson-list">
+              <div lesson-id="1">课程1</div>
+              <div lesson-id="2">课程2</div>
+              <div lesson-id="3" class="checked">课程3</div>
+              <div lesson-id="4">课程4</div>
+              <div lesson-id="5">课程511</div>
+              <div lesson-id="6">课程622</div>
+              <div lesson-id="7">课程733</div>
+              <div lesson-id="8">课程811</div>
+              <div lesson-id="9">课程911</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <div class="lesson-list-checked">
+                <div lesson-id="3">课程3<div></div></div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="edit-table-bottom">
+      <input type="button" value="发布">
+      <input type="button" value="保存">
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
 
 
 </div>
@@ -101,9 +143,9 @@
   </div>
 </div>
 </div>
-<script src="../js/vendor/modernizr-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="../js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.4.0.min.js"><\/script>')</script>
 <script src="../js/plugins.js"></script>
 <script src="../js/main.js"></script>
 

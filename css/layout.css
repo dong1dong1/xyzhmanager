@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px; }
@@ -127,7 +128,9 @@ body {
       height: 66px;
       line-height: 66px;
       border-bottom: 22px solid #f0f2f5; }
-    .xz-admin .xz-body .xz-body-right .xz-body-title.sign-record, .xz-admin .xz-body .xz-body-right .xz-body-title.live-record, .xz-admin .xz-body .xz-body-right .xz-body-title.bunch-record {
+    .xz-admin .xz-body .xz-body-right .xz-body-title.sign-record,
+    .xz-admin .xz-body .xz-body-right .xz-body-title.live-record,
+    .xz-admin .xz-body .xz-body-right .xz-body-title.bunch-record {
       border-bottom: 0; }
     .xz-admin .xz-body .xz-body-right .xz-body-title.sign-record div:nth-child(1) {
       float: left; }
@@ -278,7 +281,8 @@ body {
   .xz-admin .xz-body-list-table .list-table table {
     border: 0;
     width: 100%; }
-    .xz-admin .xz-body-list-table .list-table table th, .xz-admin .xz-body-list-table .list-table table td {
+    .xz-admin .xz-body-list-table .list-table table th,
+    .xz-admin .xz-body-list-table .list-table table td {
       height: 52px;
       line-height: 52px;
       text-align: center; }
@@ -331,9 +335,16 @@ body {
         margin-left: 10px;
         margin-right: 10px; }
 
-.xz-admin .xz-body-list-table.sign-record, .xz-admin .xz-body-list-table.live-record, .xz-admin .xz-body-list-table.bunch-record {
+.xz-admin .xz-body-list-table.sign-record,
+.xz-admin .xz-body-list-table.live-record,
+.xz-admin .xz-body-list-table.bunch-record {
   margin-top: 10px; }
-  .xz-admin .xz-body-list-table.sign-record table tr td:nth-last-child(1), .xz-admin .xz-body-list-table.sign-record table tr td:nth-last-child(2), .xz-admin .xz-body-list-table.live-record table tr td:nth-last-child(1), .xz-admin .xz-body-list-table.live-record table tr td:nth-last-child(2), .xz-admin .xz-body-list-table.bunch-record table tr td:nth-last-child(1), .xz-admin .xz-body-list-table.bunch-record table tr td:nth-last-child(2) {
+  .xz-admin .xz-body-list-table.sign-record table tr td:nth-last-child(1),
+  .xz-admin .xz-body-list-table.sign-record table tr td:nth-last-child(2),
+  .xz-admin .xz-body-list-table.live-record table tr td:nth-last-child(1),
+  .xz-admin .xz-body-list-table.live-record table tr td:nth-last-child(2),
+  .xz-admin .xz-body-list-table.bunch-record table tr td:nth-last-child(1),
+  .xz-admin .xz-body-list-table.bunch-record table tr td:nth-last-child(2) {
     color: #ff6900; }
 
 .xz-admin .xz-body-list-table.train-table {
@@ -349,28 +360,36 @@ body {
     .xz-admin .xz-body-edit .edit-table .edit-table-right {
       float: right;
       width: 520px; }
-    .xz-admin .xz-body-edit .edit-table .edit-table-left table tr, .xz-admin .xz-body-edit .edit-table .edit-table-right table tr {
+    .xz-admin .xz-body-edit .edit-table .edit-table-left table tr,
+    .xz-admin .xz-body-edit .edit-table .edit-table-right table tr {
       margin-top: 10px;
       margin-bottom: 10px; }
-    .xz-admin .xz-body-edit .edit-table .edit-table-left table td, .xz-admin .xz-body-edit .edit-table .edit-table-right table td {
+    .xz-admin .xz-body-edit .edit-table .edit-table-left table td,
+    .xz-admin .xz-body-edit .edit-table .edit-table-right table td {
       vertical-align: top;
       line-height: 32px;
       padding-top: 10px;
       padding-bottom: 10px; }
-      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="text"], .xz-admin .xz-body-edit .edit-table .edit-table-left table td textarea, .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="text"], .xz-admin .xz-body-edit .edit-table .edit-table-right table td textarea {
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="text"],
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td textarea,
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="text"],
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td textarea {
         border: 1px solid #d2d2d2;
         border-radius: 4px;
         padding: 6px;
         line-height: 24px; }
-      .xz-admin .xz-body-edit .edit-table .edit-table-left table td textarea, .xz-admin .xz-body-edit .edit-table .edit-table-right table td textarea {
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td textarea,
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td textarea {
         width: 95%;
         height: 105px;
         color: #6b6b6b; }
-      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="text"], .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="text"] {
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="text"],
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="text"] {
         width: 95%;
         height: 24px;
         color: #6b6b6b; }
-      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="button"], .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="button"] {
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="button"],
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="button"] {
         padding-left: 26px;
         padding-right: 26px;
         height: 30px;
@@ -380,25 +399,31 @@ body {
         border-radius: 4px;
         background-color: #ff6900;
         margin-right: 15px; }
-      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="file"], .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="file"] {
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td input[type="file"],
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td input[type="file"] {
         display: none; }
-      .xz-admin .xz-body-edit .edit-table .edit-table-left table td span, .xz-admin .xz-body-edit .edit-table .edit-table-right table td span {
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td span,
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td span {
         margin-right: 15px; }
-      .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date, .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date {
+      .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date,
+      .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date {
         height: 26px;
         line-height: 26px;
         color: #6b6b6b; }
-        .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date div, .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date div {
+        .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date div,
+        .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date div {
           float: left;
           margin-right: 10px;
           height: 32px;
           line-height: 32px; }
-        .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date .train-date-input, .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date .train-date-input {
+        .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date .train-date-input,
+        .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date .train-date-input {
           border: 1px solid #d2d2d2;
           border-radius: 4px;
           background: url(../img/tag-list-data.png) no-repeat right center;
           background-size: 21px 24px; }
-          .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date .train-date-input input[type="date"], .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date .train-date-input input[type="date"] {
+          .xz-admin .xz-body-edit .edit-table .edit-table-left table td .train-date .train-date-input input[type="date"],
+          .xz-admin .xz-body-edit .edit-table .edit-table-right table td .train-date .train-date-input input[type="date"] {
             border: 0;
             width: 130px;
             height: 24px;
@@ -428,6 +453,61 @@ body {
         margin-left: 8px;
         font-size: 16px;
         cursor: pointer; }
+  .xz-admin .xz-body-edit.train-create .lesson-keyvalue {
+    width: 260px;
+    border: 1px solid #d2d2d2;
+    position: relative; }
+    .xz-admin .xz-body-edit.train-create .lesson-keyvalue #keyword {
+      border: 0; }
+    .xz-admin .xz-body-edit.train-create .lesson-keyvalue > div {
+      position: absolute;
+      top: 2px;
+      right: 1px;
+      width: 30px;
+      height: 30px;
+      text-align: center; }
+      .xz-admin .xz-body-edit.train-create .lesson-keyvalue > div:after {
+        content: '▼';
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer; }
+  .xz-admin .xz-body-edit.train-create .lesson-list {
+    width: 260px;
+    height: 120px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: none;
+    border: 1px solid #d2d2d2; }
+    .xz-admin .xz-body-edit.train-create .lesson-list > div {
+      line-height: 30px;
+      text-indent: 6px;
+      position: relative; }
+      .xz-admin .xz-body-edit.train-create .lesson-list > div.checked {
+        color: #ff6900; }
+        .xz-admin .xz-body-edit.train-create .lesson-list > div.checked:after {
+          position: absolute;
+          top: 2px;
+          right: 6px;
+          content: '√';
+          font-size: 14px;
+          text-align: center;
+          cursor: pointer; }
+  .xz-admin .xz-body-edit.train-create .lesson-list-checked > div {
+    position: relative;
+    width: 260px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 6px;
+    text-indent: 6px; }
+    .xz-admin .xz-body-edit.train-create .lesson-list-checked > div > div {
+      position: absolute;
+      top: 2px;
+      right: 1px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer; }
+      .xz-admin .xz-body-edit.train-create .lesson-list-checked > div > div:after {
+        content: '✖';
+        font-size: 12px; }
 
 .xz-admin .xz-body-detail .detail-table {
   margin-top: 15px; }
@@ -844,7 +924,8 @@ body {
     .xz-site .xz-body-list-table .list-table table {
       border: 0;
       width: 100%; }
-      .xz-site .xz-body-list-table .list-table table th, .xz-site .xz-body-list-table .list-table table td {
+      .xz-site .xz-body-list-table .list-table table th,
+      .xz-site .xz-body-list-table .list-table table td {
         height: 52px;
         line-height: 52px;
         text-align: center; }
@@ -976,7 +1057,8 @@ body {
         width: 406px;
         height: 430px;
         z-index: 1001; }
-        .xz-login .xz-login-in .login-form .login-form-in .login-form-username, .xz-login .xz-login-in .login-form .login-form-in .login-form-password {
+        .xz-login .xz-login-in .login-form .login-form-in .login-form-username,
+        .xz-login .xz-login-in .login-form .login-form-in .login-form-password {
           width: 100%;
           height: 32px;
           line-height: 32px;
@@ -985,22 +1067,28 @@ body {
           margin-top: 45px; }
         .xz-login .xz-login-in .login-form .login-form-in .login-form-password {
           margin-top: 10px; }
-        .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input, .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input {
+        .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input,
+        .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input {
           margin-top: 6px;
           width: 100%;
           height: 57px;
           background-color: #d8e6f3;
           border-radius: 15px; }
-          .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(1), .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(1) {
+          .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(1),
+          .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(1) {
             float: left;
             height: 100%;
             width: 60px;
             border-right: 1px solid #1d4e8d; }
-          .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(2), .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(2) {
+          .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(2),
+          .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(2) {
             float: left;
             height: 100%;
             width: 330px; }
-            .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(2) input[type="text"], .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(2) input[type="password"], .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(2) input[type="text"], .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(2) input[type="password"] {
+            .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(2) input[type="text"],
+            .xz-login .xz-login-in .login-form .login-form-in .login-form-username-input div:nth-child(2) input[type="password"],
+            .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(2) input[type="text"],
+            .xz-login .xz-login-in .login-form .login-form-in .login-form-password-input div:nth-child(2) input[type="password"] {
               border: 0;
               width: 95%;
               height: 100%;
