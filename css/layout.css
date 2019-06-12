@@ -523,13 +523,14 @@ body {
     height: 60px;
     width: 100%;
     background-color: #1f4e79;
-    min-width: 1300px; }
+    min-width: 1170px; }
     .xz-site .xz-header .xz-header-in {
       height: 60px;
-      width: 1300px;
+      width: 1170px;
       margin: auto; }
       .xz-site .xz-header .xz-header-in .xz-header-logo {
         float: left;
+        margin-left: 5px;
         margin-top: 5px; }
       .xz-site .xz-header .xz-header-in .xz-header-user {
         float: right;
